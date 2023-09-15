@@ -20,7 +20,7 @@ Bu proje, web uygulamalarının güvenliğini artırmak ve potansiyel güvenlik 
 
 1. Projeyi indirmek için komutu kullanın. `git clone https://github.com/okokori/HTTP-response-header.git`
 
-2. İndirdiğiniz dosyaya gidin. `cd HTTP-response-header.git`
+2. İndirdiğiniz dosyaya gidin. `cd HTTP-response-header`
 
 3. Gerekli Python bağımlılıklarını yüklemek için komutu çalıştırın: `pip install -r requirements.txt`
 
