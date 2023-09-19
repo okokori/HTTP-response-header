@@ -24,4 +24,6 @@ Bu proje, web uygulamalarının güvenliğini artırmak ve potansiyel güvenlik 
 
 3. Gerekli Python bağımlılıklarını yüklemek için komutu çalıştırın: `pip install -r requirements.txt`
 
-4. Proje dizinine terminal veya komut istemcisini açın. `python3 Http-Response-Header-Check.py`
+4. Kullanım hakkında bilgi almak için `python3 Http-Response-Header-Check.py -h veya -g` 
+
+5. Proje dizinine terminal veya komut istemcisini açın. `python3 Http-Response-Header-Check.py`
