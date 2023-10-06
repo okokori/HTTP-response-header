@@ -1,27 +1,29 @@
 # Http Response Header Check 
 
-## Tanım 
-Bu proje, web uygulamalarının güvenliğini değerlendirmek ve potansiyel güvenlik açıklarını belirlemek amacıyla oluşturulmuş bir HTTP güvenlik başlıkları tarayıcısıdır. Proje, belirli bir URL veya IP adresine yapılan HTTP isteklerinin yanıt başlıklarını inceleyerek, web sitelerinin güvenlik durumunu kontrol edebilir.
+## Description 
+This project is an HTTP security headers scanner created to evaluate the security of web applications and identify potential vulnerabilities. The project can check the security status of websites by examining the response headers of HTTP requests made to a specific URL or IP address.
 
-HTTP güvenlik başlıkları, web uygulamalarının güvenliğini artırmak ve çeşitli web saldırılarına karşı koruma sağlamak için kullanılan önemli bileşenlerdir. Bu başlıklar, web uygulamalarının güvenliğini artırmak ve potansiyel güvenlik risklerini azaltmak amacıyla sunucu tarafından tarayıcılara iletilen ek bilgilerdir. Projemiz, bu güvenlik başlıklarını analiz ederek, web sitelerinin ne kadar güvende olduğunu değerlendirmenize yardımcı olur.
+HTTP security headers are important components used to increase the security of web applications and protect against various web attacks. These headers are additional information transmitted by the server to browsers in order to increase the security of web applications and reduce potential security risks. By analysing these security headers, our project helps you evaluate how secure websites are.
 
-## Projenin Amacı
+## Purpose of the Project
 
-Bu projenin amacı, gönderilen HTTP isteklerinin yanıtlarını alarak gelen responsedan alınan başlıkları ekrana yazdırmaktır. Projemiz, kullanıcıların bir web sitesinin güvenlik başlıklarını hızlı ve kolay bir şekilde incelemesine olanak tanır. Aynı zamanda, web uygulamalarının güvenliğini değerlendiren güvenlik uzmanları ve geliştiriciler için de kullanışlı bir araç sağlar.
+The purpose of this project is to receive responses to HTTP requests sent and print the headers received from the incoming response to the screen. Our project allows users to quickly and easily examine the security headers of a website. It also provides a useful tool for security experts and developers evaluating the security of web applications.
 
-Proje, aşağıdaki temel işlevlere sahiptir:
-- Belirli bir URL veya IP adresine yapılan HTTP isteğinin yanıt başlıklarını listeler.
-- Kullanıcının belirlediği HTTP başlıklarını özelleştirilmiş olarak kontrol edebilir.
-- HTTP güvenlik başlıkları ve eksik olan başlıklar hakkında bilgi sunar.
+The project has the following basic functionalities:
+- Lists the response headers of an HTTP request to a specific URL or IP address.
+- It can perform a customised check of user-specified HTTP headers.
+- Provides information about HTTP security headers and missing headers.
 
-Bu proje, web uygulamalarının güvenliğini artırmak ve potansiyel güvenlik açıklarını tespit etmek isteyen herkes için kullanışlıdır. HTTP güvenlik başlıkları, web uygulamalarının güvenliğini artırmak ve çeşitli web saldırılarına karşı koruma sağlamak için kullanılır.
+This project is useful for anyone who wants to improve the security of web applications and detect potential vulnerabilities. HTTP security headers are used to increase the security of web applications and protect against various web attacks.
 
-## Kullanım Kılavuzu
+## User Guide
 
-1. Projeyi indirmek için komutu kullanın. `git clone https://github.com/okokori/HTTP-response-header.git`
+1. Use the command to download the project. `git clone https://github.com/okokori/HTTP-response-header.git`
 
-2. İndirdiğiniz dosyaya gidin. `cd HTTP-response-header`
+2. Go to the file you downloaded. `cd HTTP-response-header`
 
-3. Gerekli Python bağımlılıklarını yüklemek için komutu çalıştırın: `pip install -r requirements.txt`
+3. Run the command to install the required Python dependencies: `pip install -r requirements.txt`
 
-4. Proje dizinine terminal veya komut istemcisini açın. `python3 Http-Response-Header-Check.py`
+4. For information on usage, see `python3 Http-Response-Header-Check.py -h or -g` 
+
+5. Open the terminal or command client to the project directory. `python3 Http-Response-Header-Check.py`
